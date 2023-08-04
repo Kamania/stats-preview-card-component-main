@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+    <link href="./images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+          rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-  <div class="hero-img"></div>
-  <div class="body-container">
-    <h1 class="title">Get <span class="insight">insights</span> that help your business grow.</h1>
-    <p class="description">
-      Discover the benefits of data analytics and make better decisions regarding revenue, customer
-      experience, and overall efficiency.
-    </p>
-    <div class="stats-section">
-      <div class="stats-sub-section">
-        <span>10k+</span>
-        <span>companies</span>
-      </div>
-      <div class="stats-sub-section">
-        <span>314</span>
-        <span>templates</span>
-      </div>
-      <div class="stats-sub-section">
-        <span>12m+</span>
-        <span>queries</span>
-      </div>
+<!--<header>
+    <div id="hero-img"></div>
+</header>-->
+<main class="container">
+    <div class="hero-img-container">
+        <img alt="image containing women laughing" id="hero-img" src="images/image-header-mobile.jpg" width="350">
+        <div class="overlay"></div>
     </div>
-  </div>
-</div>
+    <!--<div class="hero-img"></div>-->
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    <div class="body-container">
+        <h1 class="title">Get <span class="insight">insights</span> that help your business grow.</h1>
+        <p class="description">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.
+        </p>
+        <div class="stats-section">
+            <div class="stats-sub-section">
+                <span class="stats-value">10k+</span>
+                <span class="stats-title">companies</span>
+            </div>
+            <div class="stats-sub-section">
+                <span class="stats-value">314</span>
+                <span class="stats-title">templates</span>
+            </div>
+            <div class="stats-sub-section">
+                <span class="stats-value">12m+</span>
+                <span class="stats-title">queries</span>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Chiira</a>.
-  </div>
+</div>-->
 </body>
 </html>
