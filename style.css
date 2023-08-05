@@ -34,43 +34,7 @@ main {
 .hero-img-container {
     position: relative;
 }
-/*
- .overlay {
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
 
-.img-hero {
-    background-image: url("images/image-header-mobile.jpg");
-    height: 100%;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    pointer-events: none;
-}
-
-.img-hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--bg-accent);
-    opacity: 0;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--bg-accent);
-    pointer-events: none;
-    opacity: .7;
-}*/
 .overlay {
     position: absolute;
     top: 0;
